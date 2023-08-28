@@ -49,7 +49,7 @@ function checkCashRegister(price, cash, cid) {
   
   return OPEN;
 
-  function cidTotal()git  {
+  function cidTotal() {
     return parseFloat(cid.reduce((a,b) => a + b[1], 0).toFixed(2));
   }
 }
